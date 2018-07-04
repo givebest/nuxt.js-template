@@ -1,6 +1,6 @@
 # nuxt-template
 
-> 基于 Nuxt.js，使用 Element-UI，搭建的包含注册、登陆等页的项目模板
+> 基于 Nuxt.js，使用 Element-UI，搭建的包含注册、登陆等多页面的项目模板
 
 ## Build Setup
 
