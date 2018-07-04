@@ -84,7 +84,7 @@ export default {
       },
       rules: {
         id: [
-          { required: true, validator: validateMobilePhone }        ],
+          { required: true, validator: validateMobilePhone, trigger: 'blur' }        ],
         pvcode: [
           { required: true, message: '请输入手机验证码' },
           { len: 6, message: '请输入 6 位手机验证码' }
@@ -148,7 +148,6 @@ export default {
     },
     // 图片验证码
     refreshCode() {
-      console.log('sfsdf')
       let url = 'https://cas.baidu.com/?action=image&key='
       this.vcode.url = url + Date.now()
     },

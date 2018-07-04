@@ -13,3 +13,13 @@
   margin: 0 auto;
   width: 520px;
 }
+
+.kline--container {
+  height: 600px;
+  width: 100%;
+}
+
+.home--container {
+  margin: 0 auto;
+  width: 1000px;
+}
