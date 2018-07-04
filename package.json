@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-template",
+  "version": "1.0.0",
+  "description": "Nuxt template Nuxt.js project",
+  "author": "givebest",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "bootstrap": "^4.1.1",
+    "element-ui": "^2.2.1",
+    "nuxt": "^1.0.0",
+    "validator": "^10.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.15.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}

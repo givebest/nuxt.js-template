@@ -1,0 +1,15 @@
+.tac-- {
+  text-align: center;
+}
+
+.el-menu-item a{
+  display: block;
+}
+
+.main--container {
+  padding: 60px;
+}
+.login--container {
+  margin: 0 auto;
+  width: 520px;
+}
